@@ -42,8 +42,8 @@ Validate Result
 
 ```rust
 validate_npm_package_name::ValidateResult {
-    valid_for_new_packages: true,
-    valid_for_old_packages: true,
+    valid_for_new_packages: false,
+    valid_for_old_packages: false,
     warnings: None,
     errors: Some(vec![String::from(
         "name can only contain URL-friendly characters"
